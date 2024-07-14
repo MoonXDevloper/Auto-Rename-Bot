@@ -20,7 +20,7 @@
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
             "value": "",
-            "required": false 
+            "required": true 
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
@@ -31,7 +31,7 @@
         },
         "LOG_CHANNEL": {
             "description":"Bot Log Sending Channel (just create a private channel and add bot to admin and take channel id to add this variable) ⚠️ id startswith -100 must",
-            "required": false           
+            "required": true           
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
