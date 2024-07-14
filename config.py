@@ -14,9 +14,9 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/4b306f4b15c23a8f22e58.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7165581725').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002104922264") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002071135878"))
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
@@ -35,7 +35,7 @@ class Txt(object):
     
 ➻ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.
     
-<b>💺 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @MeAwara 💞</b>"""
+<b>💺 Tʜɪs Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ : @MeAwara 💞</b>"""
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
 
@@ -48,12 +48,12 @@ Use These Keywords To Setup Custom File Name
 
 <b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
     
-    ABOUT_TXT = f"""<b>🤖 My Name :</b> <a href='https://t.me/FileRenameFastBot'>Auto Rename Bot ⚡</a>
+    ABOUT_TXT = f"""<b>🤖 My Name :</b> <a href='https://t.me/FileRenameFastBot'>ꜰɪʟᴇ ʀᴇɴᴀᴍᴇ ꜰᴀꜱᴛ ʙᴏᴛ ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/MeAwaraHu'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/MeAwara'>Jishu Developer</a>
+<b>📢 Channel :</b> <a href='https://t.me/MeAwaraHu'>ᴀᴡᴀʀᴀ ᴢᴏɴᴇ</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/MeAwara'>𓆩Ꭺᴡᴀʀᴀ𓆪ꪾ</a>
     
 <b>♻️ 💺 Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ :</b> @MeAwara 💞"""
 
@@ -82,7 +82,7 @@ Use These Keywords To Setup Custom File Name
     
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
     
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> """
+<b>🛍 UPI ID:</b> <code>karanshankhwar@fam</code> """
     
     HELP_TXT = """<b>Hey</b> {}
     
